@@ -26,10 +26,10 @@ await displayLoadingScreen(conn, m.chat)
             },
       forwardingScore: 999,
       externalAdReply: {
-      title: "ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ",
-      body: "R U N T I M E",
+      title: "HARDY - BOT",
+      body: "By Aymane Touzani",
       thumbnailUrl: pp,
-      sourceUrl: 'https://guruapi.tech',
+      sourceUrl: 'https://instagram.com/gxaymenofc',
       mediaType: 1,
       renderLargerThumbnail: false
       }}})
