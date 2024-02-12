@@ -56,15 +56,15 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *GURU*
+  *Aymane Touzani*
 ▢ Instagram :
-  • https://instagram.com/asli_guru69
+  • https://instagram.com/gxaymenofc
 ▢ GitHub :
-  • https://github.com/Guru322
+  • https://facebook.com/gxaymenofc
 ▢ Telegram : 
-  • t.me/i_want_to_be_isekaied (GURU) 
+  • http://wa.me/212778512227
 ▢ YouTube : 
-  • https://youtube.com/@Asliguru
+  • https://tiktok.com/@tzaym1
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
