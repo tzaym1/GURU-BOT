@@ -14,14 +14,13 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
       additionalText = 'video 🎥';
     }
     const texto1 = `*◉——⌈🔊 YOUTUBE DOC 🔊⌋——◉*\n
-❏ 📌 *Titulo:* ${yt_play[0].title}
-❏ 📆 *Publicado:* ${yt_play[0].ago}
-❏ ⌚ *Duracion:* ${secondString(yt_play[0].duration.seconds)}
-❏ 👀 *Vistas:* ${`${MilesNumber(yt_play[0].views)}`}
-❏ 👤 *Autor:* ${yt_play[0].author.name}
-❏ ⏯️ *Canal:* ${yt_play[0].author.url}
-❏ 🆔 *ID:* ${yt_play[0].videoId}
-❏ 🪬 *Tipo:* ${yt_play[0].type}
+❏ 📌 *Title:* ${yt_play[0].title}
+❏ 📆 *Release:* ${yt_play[0].ago}
+❏ ⌚ *Time:* ${secondString(yt_play[0].duration.seconds)}
+❏ 👀 *Views:* ${`${MilesNumber(yt_play[0].views)}`}
+❏ 👤 *Author:* ${yt_play[0].author.name}
+❏ ⏯️ *Channel:* ${yt_play[0].author.url}
+❏ 🪬 *Type:* ${yt_play[0].type}
 ❏ 🔗 *Link:* ${yt_play[0].url}\n
 ❏ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim();
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
@@ -88,7 +87,7 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 };
 handler.help = ['play3', 'play4'].map((v) => v + ' < busqueda >');
 handler.tags = ['downloader'];
-handler.command = /^(playdoc|playdoc2|play3|play4)$/i;
+handler.command = /^(pdoc|pdoc2|play3|play4)$/i;
 export default handler;
 
 async function search(query, options = {}) {
