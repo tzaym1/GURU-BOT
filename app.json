@@ -1,10 +1,10 @@
 {
-  "name": "whatsapp-bot (GURU-BOT)",
-  "description": " Whatsapp bot.",
+  "name": "whatsapp-bot (HARDY-BOT)",
+  "description": " Powered by Aymane Touzani.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Guru322/GURU-BOT",
+  "repository": "https://github.com/hghardy2/GURU-BOT",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
